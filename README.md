@@ -1,3 +1,5 @@
+<img width="101" height="101" alt="alesoft" src="https://github.com/user-attachments/assets/2b4ffe7a-1d8e-42cf-ac5c-72f7f3f97a9c" />
+
 # 🌟 Task App
 
 ## 1. Overview  
@@ -43,3 +45,6 @@ La aplicación quedará ejecutándose localmente. 🚀
 ## 4. Autor  
 **Desarrollado por:** Alejandro Camacho  
 **GitHub:** AlexandroCamacho1000 👨‍💻
+
+<img width="587" height="785" alt="image" src="https://github.com/user-attachments/assets/ff2ad594-531d-44f6-948f-57bb637ede3e" />
+
