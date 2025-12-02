@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body, html, #root {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top, rgba(60, 80, 160, 0.7), rgba(10, 20, 50, 1) 70%),
+              radial-gradient(circle at bottom, rgba(255, 0, 200, 0.2), transparent 70%);
+  background-blend-mode: overlay;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.task-app {
+  background-color: rgba(10, 20, 50, 0.7);
+  backdrop-filter: blur(15px);
+  padding: 30px 40px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
+  overflow: hidden;
 }
 
-.App-link {
-  color: #61dafb;
+.logo-container {
+  margin-bottom: 30px;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.logo {
+  width: 130px;
+  height: auto;
+  transition: transform 0.3s ease, filter 0.3s ease;
+  filter: drop-shadow(0 0 20px rgba(160, 208, 255, 0.5));
+}
+
+.logo::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  height: 20px;
+  background: rgba(255, 0, 200, 0.5);
+  filter: blur(15px);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 25px #ff00c8);
+}
+
+.main-task-list h1 {
+  font-size: 2rem;
+  color: #ffffff;       
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
+  text-align: center;  
+
+  
+  animation: glowFloat 2.5s ease-in-out infinite alternate;
+}
+
+
+@keyframes glowFloat {
+  0% {
+    text-shadow: 0 0 10px #3a69ff, 0 0 20px #1a4fff, 0 0 30px rgba(58, 105, 255, 0.5);
+    transform: translateY(0px);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    text-shadow: 0 0 15px #3a69ff, 0 0 30px #1a4fff, 0 0 45px rgba(58, 105, 255, 0.7);
+    transform: translateY(-3px);
   }
+  100% {
+    text-shadow: 0 0 10px #3a69ff, 0 0 20px #1a4fff, 0 0 30px rgba(58, 105, 255, 0.5);
+    transform: translateY(0px);
+  }
+}
+
+.main-task-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.main-task-list > div {
+  background-color: rgba(20, 40, 90, 0.7);
+  padding: 15px 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+  color: #e0e0ff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.main-task-list > div:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(255, 0, 200, 0.5);
+}
+
+
+.icon {
+  color: #ffffff;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.icon:hover {
+  color: #a0d0ff; 
+  transform: scale(1.2);
+}
+
+
+.added-tasks-btn {
+  background-color: #1a4fff; 
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.added-tasks-btn:hover {
+  background-color: #3a69ff;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(58, 105, 255, 0.5);
 }

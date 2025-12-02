@@ -1,0 +1,76 @@
+/* ===============================
+   TASK FORM CONTAINER
+=============================== */
+.task-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 8px;
+  padding: 5px;
+}
+
+/* ===============================
+   TASK INPUT
+=============================== */
+.task-input {
+  flex: 1;
+  padding: 16px 20px;
+  border-radius: 14px;
+  border: 2px solid #1a4fff; 
+  font-size: 16px;
+  background-color: #0e1a4d;
+  color: #e0e0ff;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.task-input::placeholder {
+  color: #b0b0ff;
+}
+
+.task-input:focus {
+  border-color: #3a69ff; 
+  box-shadow: 0 0 12px rgba(58, 105, 255, 0.5);
+}
+
+/* ===============================
+   ADD BUTTON (AZUL TECH)
+=============================== */
+.task-button {
+  padding: 10px 18px;
+  border-radius: 14px;
+  border: none;
+  background-color: #1a4fff; 
+  color: #ffffff; 
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+  height: 36px;
+}
+
+.task-button:hover {
+  background-color: #3a69ff; 
+  color: #ffffff;
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgba(58, 105, 255, 0.5);
+}
+
+/* ===============================
+   RESPONSIVE
+=============================== */
+@media (max-width: 480px) {
+  .task-input {
+    padding: 14px 16px;
+    font-size: 15px;
+  }
+
+  .task-button {
+    padding: 8px 14px;
+    font-size: 13px;
+    height: 32px;
+  }
+}
