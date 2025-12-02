@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# 🌟 Task App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 1. Overview  
+The **Task App** is a web application built with **React** that allows users to manage daily tasks efficiently. Users can **add new tasks**, **mark them as completed**, and **delete tasks individually**. The app features a modern **tech-blue theme** with **soft glow effects** and **hover animations** for an elegant and interactive user experience.
 
-## Available Scripts
+## 2. Technologies Used  
+**Frontend:** ⚛️ React.js, 📝 JavaScript (ES6+), 🌐 HTML5, 🎨 CSS3  
+**Tools:** 🗂 Git & GitHub, 🖥 Visual Studio Code, 📦 Node.js, ⚡ npm  
 
-In the project directory, you can run:
+## 3. Installation Guide (Run Locally)  
+Follow these steps to run the project on your local machine:  
+1. **Clone the repository:** `git clone <your-repo-url>`  
+2. **Navigate to the project folder:** `cd task-app`  
+3. **Install dependencies:** `npm install`  
+4. **Start the development server:** `npm start`  
+5. **Open the project in your browser:** `http://localhost:3000`  
 
-### `npm start`
+The app should now be running locally. 🚀
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 4. Author  
+**Developed by:** Alejandro Camacho  
+**GitHub:** AlexandroCamacho1000 👨‍💻
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 🌟 Aplicación de Tareas
 
-### `npm test`
+## 1. Descripción General  
+La **Task App** es una aplicación web desarrollada con **React** que permite a los usuarios gestionar sus tareas diarias de manera eficiente. Los usuarios pueden **agregar nuevas tareas**, **marcarlas como completadas** y **eliminar tareas individualmente**. La aplicación cuenta con un tema moderno **azul-tech**, **efectos de glow** y **animaciones al pasar el mouse** para una experiencia elegante e interactiva.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 2. Tecnologías Utilizadas  
+**Frontend:** ⚛️ React.js, 📝 JavaScript (ES6+), 🌐 HTML5, 🎨 CSS3  
+**Herramientas:** 🗂 Git y GitHub, 🖥 Visual Studio Code, 📦 Node.js, ⚡ npm  
 
-### `npm run build`
+## 3. Guía de Instalación (Ejecutar Localmente)  
+Sigue estos pasos para ejecutar el proyecto en tu máquina local:  
+1. **Clona el repositorio:** `git clone <your-repo-url>`  
+2. **Entra a la carpeta del proyecto:** `cd task-app`  
+3. **Instala las dependencias:** `npm install`  
+4. **Inicia el servidor de desarrollo:** `npm start`  
+5. **Abre el proyecto en tu navegador:** `http://localhost:3000`  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+La aplicación quedará ejecutándose localmente. 🚀
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 4. Autor  
+**Desarrollado por:** Alejandro Camacho  
+**GitHub:** AlexandroCamacho1000 👨‍💻
