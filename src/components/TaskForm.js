@@ -21,7 +21,9 @@ function TaskForm(props) {
     }
 
     props.onSubmit(newTask);
+    setInput('');
     //console.log(newTask)
+  
   }
 
   return (
@@ -32,6 +34,7 @@ function TaskForm(props) {
         placeholder='Enter a task'
         name='text'
         onChange={handleChange}
+        value={input} 
       />
       <button className='task-button'>Add Task</button>
     </form>
